@@ -62,6 +62,7 @@ public class Timestamp2Date {
             Date TimeToCompare =  formatTime.parse(weekTime);
 
             return TimeToCompare.compareTo(Time1) >= 0 && TimeToCompare.compareTo(Time2) <= 0;
+            //告警数据给收集出来
 
         }
 
